@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign-up to Lawrel</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="shortcut icon"
+      href="favicon/favicon.ico"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="img-page"></div>
+      <div class="form">
+        <form action="form.php" method="post">
+          <div><h1>Login</h1></div>
+          <div>
+            <label for="email"> Email</label>
+            <input
+              type="email"
+              id="email"
+              name="username"
+              placeholder="Username or email"
+              required
+            />
+          </div>
+
+          <div>
+            <label for="password">Password</label
+            ><input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Enter your password"
+              required
+            />
+          </div>
+          <div><button>Login</button></div>
+         <div class="footer"> <span></span>
+          <p>or continue with</p>
+          <span></span></div>
+          <ul>
+            <li>
+              <a href="#"><i class="bi bi-google"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="bi bi-apple"></i></a>
+            </li>
+          </ul>
+        </form>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
